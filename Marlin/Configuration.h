@@ -143,7 +143,7 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Garazeb"
+#define CUSTOM_MACHINE_NAME "In the Ender v2.0"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
@@ -917,7 +917,7 @@
  * Override with M92
  *                                      X, Y, Z [, I [, J [, K]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT  { 80.25, 80.25, 400, 93 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT  { 80.25, 80.25, 400, 100.5 }
 
 /**
  * Default Max Feed Rate (mm/s)
